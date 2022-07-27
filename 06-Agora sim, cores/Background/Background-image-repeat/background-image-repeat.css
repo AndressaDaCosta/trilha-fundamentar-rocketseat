@@ -1,0 +1,10 @@
+* {margin:0;}
+
+header {
+    height: 100px;
+    border: 7px dashed red;
+
+    background-color: rgb(55, 100, 50);
+    background-image: url(https://rocketseat.com.br/v=cfca599cb367ccaf7377d56ddc7542f5);
+    background-repeat: no-repeat;
+}

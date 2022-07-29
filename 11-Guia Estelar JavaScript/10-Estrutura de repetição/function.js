@@ -7,7 +7,22 @@ let person = {
 }
 
 for(let property in person){
-    console.log("property: "+property);
-    console.log("person['name']: "+person["name"]);
-    console.log("person[property]: "+person[property]);
+    console.log(property);
+//  resultado console: name , age , weught
+}
+
+for(let property in person){
+    console.log(person["name"]);
+       console.log(person.name);
+
+}
+
+for(let property in person){
+    console.log(person[property]);
+//     resultado:    name
+//                   John
+    //               age    
+    //               30    
+    //               weight    
+    //               88.6    
 }

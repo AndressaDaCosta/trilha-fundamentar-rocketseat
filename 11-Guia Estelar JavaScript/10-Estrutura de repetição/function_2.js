@@ -12,9 +12,9 @@ while (i < 10) {
     i++;
 }
 console.log("======================");
-let i1 = 49586394505;
-while (i1 > 10) {
-    console.log(i1);
-    i1 /= 35;
+let j = 49586394505;
+while (j > 10) {
+    console.log(j);
+    j /= 35;
 }
 

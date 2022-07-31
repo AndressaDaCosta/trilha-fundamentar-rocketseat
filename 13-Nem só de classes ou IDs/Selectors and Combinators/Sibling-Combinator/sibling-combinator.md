@@ -6,6 +6,8 @@
 ```css
 h1 + p
 ```
+
+```
 HTML
 
 <h1>
@@ -24,7 +26,7 @@ h1 + p {
 	color: red;
 }
 
-
+```
 
 ## General sibling combinator
 
@@ -35,6 +37,7 @@ h1 + p {
 h1 ~ p
 ```
 
+```
 HTML
 
 <h1>
@@ -52,14 +55,14 @@ CSS
 h1 ~ p {
 	color: red;
 }
-
+```
 
 ## Utilizando combinadores
 
 ```css
 ul > li[class="red"]
 ```
-
+```
 HTML
 
 <ul>
@@ -72,6 +75,8 @@ CSS
 ul > li[class="red"] {
 	color: red;
 }
+
+```
 
 ## Dica:
 * Seletores muito específicos tendem a causar dificuldades no reuso das regras de estilização.

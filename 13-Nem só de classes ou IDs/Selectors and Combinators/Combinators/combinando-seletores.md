@@ -12,6 +12,8 @@ aplicar uma estilização
 body article h2
 ```
 
+
+```
 HTML
 
 <body>
@@ -25,3 +27,4 @@ CSS
 body article h2 {
 	color: red;
 }
+```

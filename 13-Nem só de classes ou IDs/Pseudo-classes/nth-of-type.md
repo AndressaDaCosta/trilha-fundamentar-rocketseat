@@ -1,8 +1,6 @@
 * :nth-of-type()
 
 
-:nth-of-type()
-
 
 
 ```

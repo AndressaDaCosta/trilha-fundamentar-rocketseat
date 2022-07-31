@@ -7,3 +7,21 @@
 ```css
 body > ul > li
 ```
+
+HTML
+
+<body>
+  <ul>
+    <li>Item 1</li>
+    <ul>
+      <li>Item 2</li>
+    </ul>
+  </ul>
+</body>
+
+
+CSS
+
+body > ul > li {
+	color: blue;
+}

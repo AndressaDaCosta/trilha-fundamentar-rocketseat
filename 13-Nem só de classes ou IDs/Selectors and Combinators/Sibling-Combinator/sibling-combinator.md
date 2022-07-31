@@ -6,6 +6,25 @@
 ```css
 h1 + p
 ```
+HTML
+
+<h1>
+  Título
+</h1>
+<p>
+  Esse é um parágrafo
+</p>
+<p>
+  Mais um parágrafo
+</p>
+
+CSS
+
+h1 + p {
+	color: red;
+}
+
+
 
 ## General sibling combinator
 
@@ -16,14 +35,44 @@ h1 + p
 h1 ~ p
 ```
 
+HTML
+
+<h1>
+  Título
+</h1>
+<p>
+  Esse é um parágrafo
+</p>
+<p>
+  Mais um parágrafo
+</p>
+
+CSS
+
+h1 ~ p {
+	color: red;
+}
+
+
 ## Utilizando combinadores
 
 ```css
 ul > li[class="red"]
 ```
 
-## Dica
+HTML
 
-* Seletores muito específicos tendem a causar dificuldades no reuso das regras
-de estilização dos elementos
-* Muitas vezes, um simples uso de classes, torna o trabalho muito mais eficiente.
+<ul>
+  <li>Alooo</li>
+  <li class="red">Hey</li>
+</ul>
+
+CSS
+
+ul > li[class="red"] {
+	color: red;
+}
+
+## Dica:
+* Seletores muito específicos tendem a causar dificuldades no reuso das regras de estilização.
+* Muitas vezes, um simples uso de classes, torna o trabalho mais eficiente.

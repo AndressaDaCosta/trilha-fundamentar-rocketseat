@@ -11,3 +11,17 @@ aplicar uma estilização
 ```css
 body article h2
 ```
+
+HTML
+
+<body>
+	<article>
+		<h2>Um Título</h2>
+	</article>
+</body>
+
+CSS
+
+body article h2 {
+	color: red;
+}

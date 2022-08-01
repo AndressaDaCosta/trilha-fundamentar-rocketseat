@@ -1,6 +1,7 @@
 // Manipulando conteúdo
 // value
-const element = document.querySelector('imput')
+
+const element = document.querySelector('input')
 
 
 console.log(element.value)

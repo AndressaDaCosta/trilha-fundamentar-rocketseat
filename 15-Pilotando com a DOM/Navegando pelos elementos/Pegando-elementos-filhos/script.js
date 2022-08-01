@@ -2,8 +2,13 @@
 // childNodes children
 const el = document.querySelector('body')
 
+console.log(el.childNodes)
 
-// firstChiel firstElementChild
+console.log(el.children)
+
+console.log(el.firstChild)
+
+// firstChild firstElementChild
 console.log(el.firstElementChild)
 
 

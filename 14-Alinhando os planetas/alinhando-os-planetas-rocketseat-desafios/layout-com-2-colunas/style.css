@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+
+    padding: 1rem;
+
+    gap: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+#main {
+    min-height: 100vh;
+}
+
+.container section {
+    height: 50vh;
+    width: 10vw;
+
+    border: 1px solid rgba(129, 129, 129, 0.5);
+}
+
+.container section:first-child {
+    flex: 1;
+    background-color: rgba(129, 129, 129, 0.100);
+}
+
+.container section:last-child {
+    flex: 3;
+    background-color: rgba(129, 129, 129, 0.075);
+}

@@ -1,7 +1,9 @@
 // Qual usar?
 
 // getElementById(element)
-// getElementsByClassName (HTMLCollection)
+// getElementsByClassName (HTMLCollection-ñ consegue usar forEach)
 // getElementsByTagName (HTMLCollection)
+
+***
 // querySelector (element)
-// querySelectorAll (Nodelist)
+// querySelectorAll (Nodelist-conseguimos usar o forEach)

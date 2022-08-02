@@ -1,0 +1,4 @@
+node_modules/
+
+# se deletar a pasta node modules, toda vez que precisar dela basta rodar
+#  no terminal npm install 

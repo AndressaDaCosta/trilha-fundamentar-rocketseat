@@ -27,7 +27,7 @@ app.get("/", function (req, res) {
 		},
 		{
 			title: "S",
-			message: "intaxe simples"
+			message: "intaxe simples",
 		}
 	]
 
@@ -36,7 +36,7 @@ app.get("/", function (req, res) {
 
 	res.render("pages/index", {
 		qualitys: items,
-		subtitle: subtitle
+		subtitle: subtitle,
 	})
 })
 

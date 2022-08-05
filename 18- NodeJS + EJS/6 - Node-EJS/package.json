@@ -1,0 +1,27 @@
+{
+  "name": "discover-node-ejs",
+  "version": "1.0.0",
+  "description": "Rocketseat -> Discover -> trilha Fundamentar -> Curso Node+EJS",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndressaDaCosta/discover-node-ejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndressaDaCosta/discover-node-ejs/issues"
+  },
+  "homepage": "https://github.com/AndressaDaCosta/discover-node-ejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
